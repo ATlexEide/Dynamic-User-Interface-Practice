@@ -1,0 +1,1 @@
+{"version":3,"file":"index.bundle.js","mappings":";;;;;AAAA;AACA;AACA;AACA,CAAC,C","sources":["webpack://template-repo/./src/js/index.js"],"sourcesContent":["const nav = document.querySelector('nav');\nnav.addEventListener('click', () => {\n    alert('yipp')\n})"],"names":[],"sourceRoot":""}

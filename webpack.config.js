@@ -14,12 +14,14 @@ module.exports = {
     },
     devtool: 'source-map',
     devServer: {
+        watchFiles: ["src/*.html"],
         static: {
             directory: path.resolve(__dirname, 'dist')
         },
         port: 3000,
         open: true,
         compress: true,
+        hot: true,
         historyApiFallback: true
     },
     module: {
